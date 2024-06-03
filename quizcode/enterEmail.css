@@ -1,0 +1,137 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body{
+	background-color: #13072E;
+}
+
+form{
+	text-align: center;
+}
+
+#mainFieldset{
+	height: 727px;
+	width: 850px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 5);
+	border-style: none;
+	background-color: #1C1C39;
+}
+
+#seconddiv{
+	margin-top: 150px
+}
+
+#textinput{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.textinput{
+	font-weight: 1000;
+	color: white;
+}
+
+#inputText{
+	margin-bottom: 50px;
+}
+
+.inputText{
+	margin-bottom: 10px;
+	background-color: transparent;
+	border-style: none;
+	width: 275px;
+	height: 20px;
+	outline: none;
+	box-sizing: border-box;
+	color: white;
+	margin-left: 5px;
+
+}
+
+.userFieldset{
+	border-style: solid;
+	border-color: white;
+	width: 20px;
+	margin-left:285px;
+	height: 50px;
+	margin-bottom: 10px;
+	border-radius: 3px;
+
+}
+
+.legend{
+	color: white;
+	margin-left: -75px;
+}
+
+#leguname{
+	margin-left: -88px;
+}
+
+#conpwd{
+	margin-left: -68px;
+}
+
+.inputText:after {
+      pointer-events: none; /* Prevents mouse interaction with the pseudo-element */
+}
+
+#loginbutton{
+	margin-top: -20px;
+	margin-bottom: 20px;
+
+}
+
+.buttonLogIn{
+	height: 40px;
+	width: 180px;
+	border-radius: 8px;
+	transition: 0.3 ease;
+	background-color: white;
+	box-shadow:0 4px 8px rgba(0, 0, 0, 2);  
+}
+
+.buttonLogIn:hover{
+	background-color: yellow;
+	cursor: pointer;
+}
+
+.buttonLogIn {
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+}
+
+.linkText{
+	margin-bottom: 10px;
+	color: white;
+}
+
+.linkText a{
+	color: white;
+	transition: 0.4s;
+}
+
+.linkText a:hover{
+	cursor: pointer;
+	color: yellow;
+}
+
+#resetpic{
+	position: absolute;
+	margin-left: 825px;
+	margin-top: -500px;
+	box-shadow:0 4px 8px rgba(0, 0, 0, 2);
+	height: 0px;
+	width: 0px;
+}
+
+.resetpic{
+	height: 400px;
+	width: 700px;
+	margin-left: 10px;
+}

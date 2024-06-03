@@ -1,0 +1,80 @@
+.delete-button {
+  position: relative;
+  padding: 10px;
+  width: 100px;
+  height: 60px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #4834d4;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  transition: .3s ease-in-out;
+}
+.delete-button:hover {
+  background-color: #35269b;
+}
+
+.delete-button .icon {
+  position: absolute;
+  display: block;
+  left: 50%;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  transform: translate(-50%,-50%);
+}
+.delete-button .icon .lid {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: 23%;
+  width: 70%;
+  height: 10%;
+  background-color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  transform: translateX(-50%);
+  transform-origin: left bottom ;
+  transition: transform .3s ease-in-out;
+}
+.delete-button:hover .icon .lid {
+  transform: translateX(-50%) rotate(-35deg);
+}
+.delete-button .icon .lid::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 100%;
+  width: 30%;
+  height: 70%;
+  border: 2px solid #fff;
+  transform: translateX(-50%) translateY(2px);
+}
+.delete-button .icon .can {
+position: absolute;
+z-index: 2;
+left: 50%;
+bottom: 0%;
+width: 60%;
+height: 60%;
+background-color: #fff;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+transform: translateX(-50%);
+}
+.delete-button .icon .can::before,
+.delete-button .icon .can::after {
+  content: '';
+  position: absolute;
+  top: 20%;
+  bottom: 20%;
+  width: 20%;
+  background-color: #4834d4;
+}
+.delete-button .icon .can::before {
+  left: 20%;
+}
+.delete-button .icon .can::after {
+  left: 60%;
+}

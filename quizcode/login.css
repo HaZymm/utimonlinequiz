@@ -1,0 +1,186 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body{
+	background-color: #13072E;
+	
+}
+
+#buttonBackAbout{
+	display: flex;
+	justify-content: flex-end;
+	top: 0;
+	left: 0;
+	padding: 50px 50px;
+}
+
+.buttonBackAbout{
+	width: 120px;
+	height: 50px;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+	background-color: white;
+	transition: 0.3 ease;
+	border-style: solid;
+	border-width: 3px;
+	margin-left: 50px;
+}
+
+.buttonBackAbout:hover{
+	background-color: yellow;
+	cursor: pointer;
+}
+
+
+.buttonBackAbout {
+	font-weight: 700;
+	font-size: 25px;
+	text-decoration: none;
+	color: black;
+}
+#mainFieldset{
+	height: 727px;
+	position: absolute;
+	width: 650px;
+	top: 0;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 5); 
+	border-style: none;
+	background-color: #1C1C39;
+
+}
+
+#form{
+	text-align: center;
+	margin-top: 40px;
+
+}
+
+#gopic{
+	margin-bottom: 60px;
+	margin-top: 80px;
+	width: 100px;
+	height: 70px;
+}
+
+#labelLogIn{
+	color: white;
+	margin-bottom: 40px;
+}
+
+
+#h4{
+	margin-right: 145px;
+	margin-top: 5px;
+}
+
+#radio{
+	justify-content: space-between;
+
+}
+.lblrad{
+	margin-left: 5px;
+	margin-right: 5px;
+	color: white;
+}
+
+#inputText{
+	margin-bottom: 50px;
+}
+
+.inputText{
+	margin-bottom: 10px;
+	background-color: transparent;
+	border-style: none;
+	width: 275px;
+	height: 20px;
+	outline: none;
+	box-sizing: border-box;
+	color: white;
+	margin-left: 5px;
+
+}
+
+.userFieldset{
+	border-style: solid;
+	border-color: white;
+	width: 20px;
+	margin-left:195px;
+	height: 50px;
+	margin-bottom: 10px;
+	border-radius: 3px;
+
+}
+
+.legend{
+	color: white;
+	margin-left: -85px;
+}
+
+.inputText:after {
+      pointer-events: none; /* Prevents mouse interaction with the pseudo-element */
+}
+
+#loginbutton{
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+.buttonLogIn{
+	height: 40px;
+	width: 180px;
+	margin-left: 30px;
+	border-radius: 8px;
+	transition: 0.3 ease;
+	background-color: white;
+	box-shadow:0 4px 8px rgba(0, 0, 0, 5);  ;
+}
+
+.buttonLogIn:hover{
+	background-color: yellow;
+	cursor: pointer;
+}
+
+.buttonLogIn {
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+}
+
+#activeReset{
+	margin-top: 40px;
+	margin-left: 20px;
+}
+
+.linkText{
+	margin-bottom: 10px;
+	color: white;
+}
+
+.linkText a{
+	color: white;
+	transition: 0.4s;
+}
+
+.linkText a:hover{
+	cursor: pointer;
+	color: yellow;
+}
+
+#loginpic{
+	position: absolute;
+	margin-left: 700px;
+	margin-top: 50px;
+}
+
+.loginpic{
+	height: 400px;
+	width: 700px;
+}
+#Check{
+	color: white;
+}

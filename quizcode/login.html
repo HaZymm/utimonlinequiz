@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>LOG IN</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<link rel="stylesheet" type="text/css" href="master.css">
+	<script>
+    window.onload = function() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const success = urlParams.get('success');
+      if (success === 'true') {
+        alert('Data has been saved successfully!');
+      }
+    };
+
+    function myFunction() {
+      var x = document.getElementById("loginPassword");
+      if (x.type === "password") {
+        x.type = "text";
+      } else {
+        x.type = "password";
+      }
+    };
+  </script>
+</head>
+<body>
+	<div id="maindiv">
+		<div id="buttonBackAbout">
+			<a href="aboutus.html"><button id="about" class="buttonBackAbout">About</button></a>
+		</div>
+		<fieldset id="mainFieldset">
+		<form name="formlogin" id="form" method="post" action="login.php">
+			<div>
+				<img src="source/goquiz transparent.png" id="gopic">
+			</div>
+			<div id="labelLogIn">
+				<h1 id="h1">Log in to GoQuiz</h1>
+				<h4 id="h4">Let get started</h4>
+			</div>
+			<div id="radio">
+				<input type="radio" name="type" value="student" checked><label class="lblrad">student</label>
+				<input type="radio" name="type" value="lecturer"><label class="lblrad">lecturer</label>
+				<input type="radio" name="type" value="admin"><label class="lblrad">admin</label>
+			</div>
+			<div id="inputText">
+				<fieldset class= "userFieldset">
+				<legend class="legend">username</legend>
+				<input type="text" placeholder="ali@gmail.com " class="inputText" name="uName"><br>
+				</fieldset>
+				<fieldset class ="userFieldset">
+				<legend class="legend">password</legend>
+				<input type="password" placeholder="password" class="inputText" name="pwd" id="loginPassword">
+				</fieldset>
+				<p id="Check"><input type="checkbox" onclick="myFunction()"> show password</p>
+			</div>
+			<div id="loginbutton">
+				<input type="submit" class="buttonLogIn" value="LOG IN" name="LOGIN">
+			</div>
+			<div id="activeReset">
+				<p class="linkText">Click <a href="enterEmail.html">HERE</a> to active your UITM GoQUiz account</p>
+				<p class="linkText">Click <a href="enterEmail.html">HERE</a> to reset password</p>
+			</div>
+		</form>
+		</fieldset>
+		<div id="loginpic">
+			<img src="source/loginpictrans.png" class="loginpic">
+		</div>
+	</div>
+
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>RESET PASSWORD</title>
+	<link rel="stylesheet" type="text/css" href="enterEmail.css">
+	<link rel="stylesheet" type="text/css" href="master.css">
+</head>
+<body>
+	<form method="POST" name="sendemail" action="password_reset_code.php">
+		<fieldset id="mainFieldset">
+		<div id="seconddiv">
+			<div id="goquiz">
+				<img src="source/goquiz transparent.png" class="goquiz">
+			</div>
+			<div id="textinput">
+				<h1 class="textinput">Enter Your Email</h1>
+			</div>
+			<div id="inputText">
+				<fieldset class= "userFieldset">
+				<legend class="legend" id="leguname">username</legend>
+				<input type="email" placeholder="abu@gmail.com " class="inputText" name="uName"><br>
+				</fieldset>
+				<fieldset class= "userFieldset">
+				<legend class="legend">new password</legend>
+				<input type="password"  class="inputText" name="newpwd" minlength="8" maxlength="16"><br>
+				</fieldset>
+				<fieldset class= "userFieldset">
+				<legend class="legend" id="conpwd">confirm password</legend>
+				<input type="password" class="inputText" name="confpwd" minlength="8" maxlength="16"><br>
+				</fieldset>
+			</div>
+			<div id="loginbutton">
+				<input type="submit" class="buttonLogIn" value="SUBMIT" name="password_reset_link">
+			</div>
+			<div id="back">
+				<p class="linkText">Click <a href="login.html">HERE</a> to go homepage</p>
+			</div>
+		</div>	
+		</fieldset>
+		<div id="resetpic">
+			<img src="source/resettransparent.png" class="resetpic">
+		</div>
+	</form>
+
+	
+</body>
+</html>

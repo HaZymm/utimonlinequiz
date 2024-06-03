@@ -1,0 +1,66 @@
+/* soalan.css */
+
+/* Apply a gradient background to the entire body */
+body {
+   background: rgb(48,42,158);
+    background: linear-gradient(90deg, rgba(48,42,158,1) 0%, rgba(20,20,156,1) 35%, rgba(0,212,255,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the wrapper and give it a background */
+.wrapper {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.input-box {
+    margin: 15px 0;
+}
+
+.input-box input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style the buttons to make them lively */
+.button-container {
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #1e90ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin: 5px;
+}
+
+.button:hover {
+    background-color: #1c86ee;
+    transform: scale(1.05);
+}
+
+.button:active {
+    background-color: #187bcd;
+    transform: scale(1);
+}
