@@ -1,0 +1,80 @@
+
+body{
+	background-color: #13072E;
+
+	
+}
+.box{
+	margin-top: 200px;
+	width: 75vw;
+	height: 45vh;
+	background-color:#212774;
+	margin-left: -15px;
+}
+
+.text-content{
+	color: white;
+	position: relative;
+	left:580px;
+	bottom: 500px;
+}
+
+.heading1{	
+	font-size: 80px;	
+	position: relative;
+	left:-70px;
+	bottom: -20px;
+}
+
+.heading2{
+	font-size: 30px;
+	position: relative;
+	left:250px;
+	bottom: -10px;
+}
+
+.heading3{
+	
+	position: relative;
+	left:240px;
+	bottom: 50px;
+	font-family:Brush Script MT, Brush Script Std, cursive;
+	font-size: 50px;
+}
+.logo_gq{
+	display: flex;
+	width: 400px;
+	height: 50px;
+	position: relative;
+	top: 0;
+	transition: all 0.2s case;
+}
+.logo_gq:active{
+	transform: scale(0.96);
+}
+.img_content{
+	position: relative;
+	top: -1040px;
+	left: 950px;
+}
+
+@keyframes slideInLeft{
+	from{
+		transform: translateX(-1000px);
+	}
+	to{
+		transform: translateX(0);
+	}
+
+}
+.allcontent{
+	animation-name: slideInLeft;
+	animation-duration: 3s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: none;
+
+	transform: translateX(-3px);
+}
