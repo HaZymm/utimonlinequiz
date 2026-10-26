@@ -10,3 +10,6 @@ password : 123
 <br>
 username for one of the student : khai@gmail.com
 password : 123
+
+
+PLEASE ENJOY IN TESTING AND USING IT AS INSPIRATION
